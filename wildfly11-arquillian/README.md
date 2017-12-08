@@ -15,3 +15,10 @@ On my workstation there was already running a service on localhost:8080, so I ne
 to the configuration of the Surefire plugin in the `pom.xml`. And I had to set the changed managemement port in the `arquillian.xml` in **src/test/resources**:
 
     <property name="managementPort">10090</property>  
+
+Execute
+===
+
+To run the test case execute the maven with following command:
+
+    mvn clean verify 
