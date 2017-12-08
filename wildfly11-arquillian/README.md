@@ -2,6 +2,7 @@ Embedded Arquillian WildFly 11 Example
 ===
 
 I have tried to setup an embedded WildFly 11 Arquillian test case. I have found the nice sample project with an embedded WildFly 10 configuration for arquillian by [MatousJobanek](https://github.com/MatousJobanek) here: 
+
 <https://github.com/MatousJobanek/examples/tree/master/wildfly-arquillian/wildfly-arquillian-embedded-example>
 
 Problem
