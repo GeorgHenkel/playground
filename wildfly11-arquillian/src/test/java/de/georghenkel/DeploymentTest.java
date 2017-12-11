@@ -12,8 +12,8 @@ import org.junit.runner.RunWith;
 public class DeploymentTest {
 
 	@Deployment
-	public static Archive<WebArchive> deploy() {
-		return ShrinkWrap.create(WebArchive.class, "wildfly11-arquillian.war");
+	public static Archive<?> deploy() {
+		return ShrinkWrap.create(WebArchive.class, "wildfly11-arquillian-embedded.war");
 	}
 
 	@Test
