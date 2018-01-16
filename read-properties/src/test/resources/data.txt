@@ -1,0 +1,2 @@
+Jobname=TestJob
+Langsame Messrate=10 Hz
